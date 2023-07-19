@@ -1,0 +1,148 @@
+body{
+    font-family: "Comfortaa", cursive;
+    background-color: #272b30;
+    height: 10px;
+    width: 0px;
+}
+#allGamesPlace{
+    display: none;
+}
+header {
+    background-image: url(../imgs/wraper.png);
+    height: 30vh;
+    background-position: center center;
+}
+.nav-bg-color{
+    background-color: #3a497b !important;
+    border-radius: 1rem;
+    z-index: 99099;
+
+}
+.whenHover:hover {
+color: #09c !important;
+transition-property:  all;
+transition-duration: 0.2s;
+}
+.card:hover .card-Img-When-Hover {
+    opacity: 1 !important;
+    transition-property:  all;
+    transition-duration: 1s;
+   
+}
+.card:hover{
+    transform: scale(1.1);
+    transition-property:2s all;
+    transition-duration: 2s;
+    z-index: 2;
+}
+.cards-bacground{
+    background-color: #272b30;
+    border: solid black 1px;
+    color: #77797c;
+    font-size: .875em;
+   
+}
+.btn-for-platforms{
+    color: #77797c;
+    width: 2.3rem;
+    height:1.8rem ;
+    border: solid white 1px;
+   
+}
+.active{
+    color: #09c !important;
+    transition: color 0.5s;
+}
+
+.texto{
+    width: 3.5rem;
+    height:1.8rem ;
+    font-size: 0.8rem !important;
+    color: white;
+}
+
+/* <!-- here is the details of each game --> */
+
+
+.all-for-section{
+    height: 100vh;
+    background-color: #272729be;
+}
+.icon-curser{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+#loading{
+    background-color: #09c;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 99999999999;
+}
+
+
+
+
+
+.spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .spinner > div {
+    background-color: #333;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
